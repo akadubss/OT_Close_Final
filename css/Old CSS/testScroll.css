@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Bowlby+One+SC);
+
+body{
+background-image: linear-gradient(#9b59b6, #8E44AD 500px);
+  font-family: "Bowlby One SC", sans-serif;
+  color: #333;
+}
+div{
+height: 3000px;
+width: 20%;
+margin: 2.5%;
+float: left;
+background: white;
+  background-image: linear-gradient(#ECF0F1 50%, #bdc3c7 50%);
+  background-size: 50px 50px;
+  font-size: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+.box4{
+  background-attachment: fixed;
+  background-position: 0 26px;
+}
+h1 {
+  position: fixed;
+  bottom: 0px;
+  width:100%;
+  text-align: center;
+  background: #F1C40F;
+  padding: .5em 1em;
+  box-sizing: border-box;
+}
+span { 
+  display: block;
+  position: fixed;
+  width: 20%;
+  box-sizing: border-box;
+  padding: 3px 10px;
+}

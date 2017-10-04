@@ -1,0 +1,233 @@
+
+   #background1 {
+	background: url('../img/para.jpg') repeat fixed;
+	background-size: cover;
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	width:100%;  
+	height: 100vh;
+}
+  
+  
+    #parallax2 {
+    padding-top:50px;
+    height:750px;
+    color: #fff;
+    background-color: #1E88E5;
+    z-index: 1;
+    background-image: url('../img/logo.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	}
+	
+    #section2 {
+    padding-top:50px;
+    height:600px;
+    color: #fff; 
+    background-color: #000;
+   
+    align-content: center;
+    top: 50%;
+   left: 50%;
+}
+
+  #About {
+	  background: url('../img/lw.1.png') no-repeat fixed;
+	  background-size: cover;
+    padding-top:50px;
+    height:600px;
+    color: #fff; 
+    background-color: #a2f;
+   
+    align-content: absolute;
+    height: 100vh;
+	width:100%; 
+}
+
+  #Work {
+	  background: url('../img/lw.2.png') no-repeat fixed;
+	  background-size: cover;
+    padding-top:50px;
+    height:600px;
+    color: #fff; 
+    background-color: #a2f;
+    
+    align-content: absolute;
+     height: 100vh;
+	 width:100%; 
+}
+
+	
+	.just_pattern { 
+	background-image: url(../img/pattern.png); 
+	position: absolute; 
+	opacity: 0.8; 
+	left: 0px;
+	top: 0px;
+	right:0;
+	bottom:0;
+	
+	height:400px; 
+	z-index: 1; 
+}
+
+
+  #section2 {
+    padding-top:50px;
+    height:600px;
+    color: #fff; 
+    background-color: teal;
+    z-index: 1;
+    align-content: center;
+      top: 50%;
+  left: 50%;
+}
+
+
+  #section4 {
+    padding-top:50px;
+    height:600px;
+    color: #fff; 
+    background-color: #a2f;
+    z-index: 1;
+    align-content: center;
+      top: 50%;
+  left: 50%;
+}
+
+.footer {
+  position: ;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  background-color: #efefef;
+  text-align: center;
+}
+#ul1 {
+    padding: 5px;
+    background-color: #eee;
+    display: inline-block;
+}
+  
+
+/*Lets Modify the Header//Nav Bar */
+
+/* Header Icon thingy with the 3 Lines */
+a {
+
+	color: #4C9CF1;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+header {
+
+	background: #fff;
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom: 4px solid #4C9CF1;
+	z-index: 100;
+
+}
+
+nav {
+
+	float: right;
+	padding: 20px;	
+
+}
+
+/* need to change location for this icon */
+#menu-icon {
+
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #4C8FEC url(https://imgur.com/QJuNMJc) center;
+
+}
+a:hover#menu-icon {
+
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+
+}
+
+ul {
+
+	list-style: none;
+
+}
+
+li {
+
+	display: inline-block;
+	float: left;
+	padding: 10px
+
+}
+
+.current {
+
+	color: #2262AD;
+
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 640px) {
+
+	header {
+
+		position: absolute;
+
+	}
+
+	#menu-icon {
+
+		display:inline-block;
+
+	}
+
+	nav ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
+  
+  
+  /* everything above is for the NAV Bar so to say */
