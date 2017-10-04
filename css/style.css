@@ -29,6 +29,24 @@ img {
 }
 
 
+/*Colums
+
+[class^=col-] {
+padding: 0 .5em;
+    float: left;
+}
+
+.col-3 {
+
+}
+
+.col-1 {
+   
+    
+}
+==================================*/
+
+
 /* outline: 2px solid rgb(241, 64, 64);*/
 
 
@@ -67,6 +85,17 @@ h1 {
     font-size: 1.5rem;
     color: black;
     display: block;
+}
+
+.theEquipment h1 {
+    font-weight: 500;
+    font-size: 4.5rem;
+    color: white;
+    padding-top: 9em
+}
+
+.About_Equipment p1 {
+    font-size: 1.5rem;
 }
 
 @media (min-width: 35rem) {
@@ -281,7 +310,14 @@ nav a focus {
     padding-left: 1.2em;
     padding-right: 1.2em;
     font-size: 1.2em;
-    font-weight: 300
+    font-weight: 300;
+}
+
+.About-Closing h1 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 2em;
 }
 
 @media (min-width: 25rem) {
@@ -320,6 +356,12 @@ nav a focus {
         width;
         15em;
     }
+    .About-Closing h1 {
+        font-weight: 300;
+        font-size: 1.5rem;
+        color: white;
+        padding-top: 2em;
+    }
 }
 
 @media (min-width: 60rem) {
@@ -338,6 +380,12 @@ nav a focus {
         height: 15.99999999;
         width;
         15em;
+    }
+    .About-Closing h1 {
+        font-weight: 300;
+        font-size: 1.5rem;
+        color: white;
+        padding-top: 2em;
     }
 }
 
@@ -398,3 +446,62 @@ figure {
     text-indent: 0;
     border: thin silver solid;
 }
+
+
+/*The Equipment
+=========================*/
+
+.theEquipment {
+    background-image: url(../img/gymOnly03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    margin: 0;
+    background-size: cover;
+}
+
+.About_Equipment ul {
+    margin: 0;
+    padding 0em;
+    list-style: none;
+}
+
+.About_Equipment li {
+    display: block;
+    margin: .5em;
+    padding: 0;
+}
+
+.UnstyledList {
+    -webkit-columns: 1em 3;
+    -moz-columns: 1em 3;
+    columns: 1em 3;
+    padding: 2em;
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+
+/*About-Closing
+=========================*/
+
+.About-Closing {
+    background-image: url(../img/Logo01.jpg);
+    padding: 10em 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*
+.About-Closing {
+    background-image: url(../img/Logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    background-size: cover;
+    padding: 10em 10em;
+}
+*/
