@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Russo+One);
+
+
+
+
+body, html {
+  height: 100%;
+overflow: scroll;
+
+}
+
+body {
+
+}
+
+
+.intro {
+	background: url('../img/strong.jpg');
+	background-size: cover;
+    width:100%;  
+	height: 100vh;   
+}
+
+.home {
+    	position: relative; 
+	margin: 0 auto;
+	width: 100%;
+	overflow:hidden;
+	z-index:2;
+}
+.big-text { 
+	position: relative; 
+	top: 50%;
+	margin-top:-40px;
+	width: 100%;
+	font-family: 'Russo One', sans-serif;
+	text-shadow: 0 0 15px rgba(0,0,0,.3); 
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:700;
+	font-size: 50px; 
+	line-height:50px;
+	color: #ededed;
+	z-index: 20; 
+   
+    
+}
+.big-test h1 {
+     background: rgba(32,32,32,.3); 
+    
+}
+
+
+/*
+ .big-text {
+    text-align: relative;
+    font-size: 100;
+    float: left;
+    padding: 450px;
+    width: 100%;
+    color: White;
+    font-weight: bolder;
+    font-family: 'Russo One', sans-serif;
+    position: relative;
+
+     
+    
+}
+
+
+
+*/
+
+
+   .about {
+	background: url('../img/lw.1.png') ;
+	background-size: cover;
+    width:100%;  
+	height: 100vh;
+}
+
+
+
+/*testamonials*/
+#cont1 { 
+  border : 3px solid #000; 
+  width: 19cm;
+  display: inline-block;
+  margin-left: 100px;    
+
+  
+
+}
+
+#cont2 #image2 {
+  min-height: 200px;
+  padding:0;
+  position: static;
+  background-image:url('../img/Olympus_Profile.png');
+  width: 200px ;
+  height: 200px ;
+  background-size: cover;
+ 
+}
+
+#cont2 { 
+  border : 3px solid #000; 
+  width: 19cm;
+  display: inline-block;
+  margin-left: 100px;  
+  
+  
+  
+
+}
+
+#cont1 #image2 {
+  min-height: 200px;
+  padding:0;
+  position: static;
+  background-image:url('../img/Olympus_Profile.png');
+  width: 200px ;
+  height: 200px ;
+  background-size: cover;
+ 
+}
+
+
+
+
+/* Container Border */
+#two { 
+  background-color: white;
+  overflow:hidden;
+  margin: 15px ;
+  border:2px dashed #ccc;
+  min-height:170px;
+  max-width: 450px;
+  position: static;
+  float:right;
+ }
+
+    
+    
+
+
+
+
+
+
+#parallax1 { 
+    background: url('../img/Logo.jpg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 350px;
+    margin: 0 auto; 
+    position: relative; 
+   
+}

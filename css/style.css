@@ -1,0 +1,400 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../font/bebas_neue/BebasNeue.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Rage Italic';
+    src: url('../font/Rage Italic.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "BebasNeue", sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+/* outline: 2px solid rgb(241, 64, 64);*/
+
+
+/*Typeography
+==================================*/
+
+.title {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.title_01 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rage Italic';
+}
+
+.About-traingGrounds h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.About-Training-Times p1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.About-Training-Times p2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: black;
+    display: block;
+}
+
+@media (min-width: 35rem) {
+    .title {
+        font-size: 4.5rem;
+        color: white;
+        position: relative;
+        bottom: -1em;
+        font-weight: 400;
+    }
+    .title_01 {
+        font-size: 3.5rem;
+        color: white;
+        font-weight: 100;
+        position: relative;
+        bottom: -1em;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 45rem) {
+    .title {
+        font-size: 4.5rem;
+        color: white;
+        position: relative;
+        bottom: 2.5em;
+        font-weight: 400;
+    }
+    .title_01 {
+        font-size: 3.5rem;
+        color: white;
+        font-weight: 100;
+        position: relative;
+        bottom: 4em;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 50rem) {
+    .title {
+        font-size: 4.5rem;
+        color: white;
+        position: relative;
+        bottom: 3em;
+        font-weight: 400;
+    }
+    .title_01 {
+        font-size: 3.5rem;
+        color: white;
+        font-weight: 100;
+        position: relative;
+        bottom: 4em;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 50rem) {
+    .title {
+        font-size: 3.5rem;
+        color: white;
+        position: relative;
+        bottom: 1em;
+        font-weight: 300;
+    }
+    .title_01 {
+        font-size: 2.0rem;
+        color: white;
+        font-weight: 100;
+        position: relative;
+        bottom: 2em;
+        font-weight: 400;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+}
+
+@media (min-width: 60em) {
+    .title {
+        font-size: 4.5rem;
+        color: white;
+        position: relative;
+        bottom: -1em;
+        font-weight: 400;
+    }
+    .title_01 {
+        font-size: 2.8rem;
+        color: white;
+        font-weight: 100;
+        position: relative;
+        bottom: -1em;
+        font-weight: 400;
+    }
+    .About-traingGrounds h1 {
+        font-weight: 200;
+        font-size: 7rem;
+        color: white;
+    }
+}
+
+
+/*Header
+==================================*/
+
+header {
+    position: absolute;
+    margin-top: .25;
+    left: 0;
+    right: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding 0em;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: .5em;
+}
+
+nav a {
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: .8em;
+    padding: .7em;
+    color: white;
+}
+
+nav a:hover,
+nav a focus {
+    color: #ddd;
+}
+
+
+/*ipad media
+=========================*/
+
+@media (min-width: 45rem) {
+    nav a {
+        font-size: 1.4em;
+    }
+}
+
+
+/*Header
+==================================*/
+
+.home-hero {
+    background-image: url(../img/aaronSolo02BW.jpg);
+    background-repeat: no-repeat;
+    padding: 10em 0;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 45rem) {
+    .home-hero {
+        height: 100vh;
+        padding-top: 25em;
+    }
+}
+
+@media (min-width: 50rem) {
+    .home-hero {
+        height: 100vh;
+        padding: 10em;
+    }
+}
+
+@media (min-width: 60rem) {
+    .home-hero {
+        height: 100vh;
+        padding: 12em;
+    }
+}
+
+
+/*About Hero
+==================================*/
+
+.About-Hero {
+    /* background-image: url(../img/otred.jpg);*/
+    background-size: 75%;
+    background-position: center;
+    padding-top: .5em;
+    padding-bottom: 2em;
+    background-repeat: no-repeat;
+}
+
+.About-Hero h1 {
+    right: 10em;
+    top: -10;
+    font-weight: 900;
+    font-size: 2em;
+    padding-bottom: 0;
+}
+
+.About-Hero h1 span {
+    padding-bottom: 0;
+    right: 10em;
+    display: block;
+}
+
+.About-Hero p1 {
+    background-image: url(../img/otred.jpg);
+    background-size: 55%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    font-size: 1.2em;
+    font-weight: 300
+}
+
+@media (min-width: 25rem) {
+    .About-Hero p1 {
+        background-image: url(../img/otred.jpg);
+        background-size: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        padding-left: 2.0em;
+        padding-right: 2.0em;
+        padding-top: 2.0em;
+        padding-bottom: 0em;
+        font-size: 1.3em;
+        font-weight: 300;
+        height: 15.99999em;
+        width;
+        15em;
+    }
+}
+
+@media (min-width: 45rem) {
+    .About-Hero p1 {
+        background-image: url(../img/otred.jpg);
+        background-size: 32%;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        padding-left: 10em;
+        padding-right: 10em;
+        padding-top: 4em;
+        padding-bottom: 5em;
+        font-size: 1.2em;
+        font-weight: 300;
+        height: 15.99999999;
+        width;
+        15em;
+    }
+}
+
+@media (min-width: 60rem) {
+    .About-Hero p1 {
+        background-image: url(../img/otred.jpg);
+        background-size: 32%;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        padding-left: 15em;
+        padding-right: 15em;
+        padding-top: 3em;
+        padding-bottom: 5em;
+        font-size: 1.2em;
+        font-weight: 300;
+        height: 15.99999999;
+        width;
+        15em;
+    }
+}
+
+@media (min-width: 100rem) {
+    .About-Hero h1 {
+        font-weight: 500;
+        font-size: 6em;
+    }
+    .About-Hero h1 span {
+        padding-bottom: 0;
+        right: 10em;
+        display: block;
+    }
+    .About-Hero p1 {
+        background-image: url(../img/otred.jpg);
+        background-size: 35%;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        padding-left: 18em;
+        padding-right: 18em;
+        padding-top: 8em;
+        padding-bottom: 5em;
+        font-size: 1.8em;
+        font-weight: 300;
+        height: 22em;
+        width;
+        15em;
+    }
+}
+
+
+/*About Training Times
+==================================*/
+
+.About-traingGrounds {
+    background-image: url(../img/gym_member01.jpg);
+    padding: 10em 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.About-Training-Times {
+    height: 10em;
+    padding-top: 2em;
+}
+
+.About-Training {
+    margin: 0;
+}
+
+figure {
+    display: inline-block;
+    height: 35%;
+    width: 30%;
+    text-align: center;
+    text-indent: 0;
+    border: thin silver solid;
+}
