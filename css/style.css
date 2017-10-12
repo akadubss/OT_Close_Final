@@ -18,14 +18,14 @@ body {
     text-align: center;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 .container {
     width: 95%;
     margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -96,6 +96,24 @@ h1 {
 
 .About_Equipment p1 {
     font-size: 1.5rem;
+}
+
+.footer p1 {
+    font-size: 1.5rem;
+}
+
+.ending span {
+    font-size: 1.5rem;
+    display: block;
+}
+
+.endingtimes {
+    font-size: 1.5rem;
+    padding-bottom: 6em;
+}
+
+.endingtimes span {
+    display: block;
 }
 
 @media (min-width: 35rem) {
@@ -221,7 +239,7 @@ nav a {
     font-weight: 500;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: .8em;
+    font-size: .63999999999999em;
     padding: .7em;
     color: white;
 }
@@ -323,14 +341,14 @@ nav a focus {
 @media (min-width: 25rem) {
     .About-Hero p1 {
         background-image: url(../img/otred.jpg);
-        background-size: 50%;
+        background-size: 60%;
         background-position: center;
         background-repeat: no-repeat;
         display: block;
         padding-left: 2.0em;
-        padding-right: 2.0em;
+        padding-right: 3.8em;
         padding-top: 2.0em;
-        padding-bottom: 0em;
+        padding-bottom: 3em;
         font-size: 1.3em;
         font-weight: 300;
         height: 15.99999em;
@@ -348,7 +366,7 @@ nav a focus {
         display: block;
         padding-left: 10em;
         padding-right: 10em;
-        padding-top: 4em;
+        padding-top: em;
         padding-bottom: 5em;
         font-size: 1.2em;
         font-weight: 300;
@@ -367,19 +385,18 @@ nav a focus {
 @media (min-width: 60rem) {
     .About-Hero p1 {
         background-image: url(../img/otred.jpg);
-        background-size: 32%;
+        background-size: 25%;
         background-position: center;
         background-repeat: no-repeat;
         display: block;
         padding-left: 15em;
         padding-right: 15em;
-        padding-top: 3em;
-        padding-bottom: 5em;
+        padding-top: 5em;
+        padding-bottom: 0em;
         font-size: 1.2em;
         font-weight: 300;
         height: 15.99999999;
-        width;
-        15em;
+        text-align: inherit;
     }
     .About-Closing h1 {
         font-weight: 300;
@@ -421,6 +438,10 @@ nav a focus {
 /*About Training Times
 ==================================*/
 
+.About-Training {
+    margin: 3em 0 0;
+}
+
 .About-traingGrounds {
     background-image: url(../img/gym_member01.jpg);
     padding: 10em 0;
@@ -438,15 +459,50 @@ nav a focus {
     margin: 0;
 }
 
-figure {
-    display: inline-block;
-    height: 35%;
-    width: 30%;
-    text-align: center;
-    text-indent: 0;
-    border: thin silver solid;
+.port-item img {
+    display: block;
 }
 
+.port-item {
+    margin: 0;
+    position: relative;
+}
+
+.port-desc {
+    position: absolute;
+    z-index: 100;
+    left: 3em;
+    right: 3em;
+    bottom: 2em;
+    color: white;
+    background: rgba(0, 0, 0, .75);
+    padding: 1em;
+}
+
+@media (min-width: 37rem) {
+    .port-item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 60rem) {
+    .port-item {
+        width: 33.33333334%;
+        float: left;
+    }
+}
+
+/*Blank
+=========================*/
+.blank {
+    height: 5em;
+}
+
+@media (min-width: 60rem) {
+.blank {
+    height: 20em;
+}
+}
 
 /*The Equipment
 =========================*/
@@ -458,6 +514,7 @@ figure {
     width: auto;
     margin: 0;
     background-size: cover;
+    padding: 10em 0;
 }
 
 .About_Equipment ul {
@@ -490,10 +547,51 @@ figure {
     background-image: url(../img/Logo01.jpg);
     padding: 10em 0;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    
+   
 }
 
+.About-Closing h1 {
+    padding-bottom: 1em;
+     font-size: 2.2em;
+}
+
+@media (min-width: 60rem) {
+    .About-Closing {
+       background-size: 100% 100%;
+        
+    }
+    .About-Closing h1 {
+    padding-top: 1em;
+     font-size: 5em;
+}
+}
+
+
+/*Footer
+=========================*/
+
+.footer {
+    height: 10em;
+    padding-top: em;
+}
+
+.UnstyledList1 {
+    list-style-type: none;
+    font-weight: 100;
+    font-size: .5rem;
+    display: inline-block;
+    padding-bottom: em;
+    font-size: .9rem;
+}
+
+@media (min-width: 60rem) {
+    .UnstyledList1 {
+font-size: 1.5rem;
+    }
+}
 
 /*
 .About-Closing {
