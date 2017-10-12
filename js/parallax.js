@@ -4,8 +4,18 @@ $(window).scroll(function () {
 
 function parallax() {
 
-    var wScroll = $(window).scrollTop();
+    var scroll = $(window).scrollTop();
+    var screenHeight = $(window).height();
 
-$('.parallax--bg').css('background-position', 'center ' +(wScroll*0.55)+'px')
-
+$('.parallax--bg').each(function() {
+    var offset = $(this).offset().top;
+    var distanceFromBottom = offset - scroll - screenHeight
+    
+    if (offset > screenHeight && offset) {
+      $(this).css('background-position', 'center ' + (( distanceFromBottom  ) * 0.2) +'px');
+    } else {
+      $(this).css('background-position', 'center ' + (( -scroll ) * 0.2) + 'px');
+    }
+  })
 }
+

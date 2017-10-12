@@ -91,7 +91,7 @@ h1 {
     font-weight: 500;
     font-size: 4.5rem;
     color: white;
-    padding-top: 9em
+    padding-top:  2em;
 }
 
 .About_Equipment p1 {
@@ -439,13 +439,14 @@ nav a focus {
 ==================================*/
 
 .About-Training {
-    margin: 3em 0 0;
+   
+    padding-bottom: 10em;
 }
 
 .About-traingGrounds {
     background-image: url(../img/gym_member01.jpg);
     padding: 10em 0;
-    background-position: center;
+    background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -473,18 +474,26 @@ nav a focus {
     z-index: 100;
     left: 3em;
     right: 3em;
-    bottom: 2em;
+    bottom: 1em;
     color: white;
     background: rgba(0, 0, 0, .75);
-    padding: 1em;
+    padding: .5em;
 }
 
-@media (min-width: 37rem) {
+@media (min-width: 40rem) {
     .port-item {
         width: 50%;
+        float: left;
     }
 }
 
+@media (min-width:48rem){
+    .About-Training {
+   
+    padding-bottom: 10em;
+}
+
+}
 @media (min-width: 60rem) {
     .port-item {
         width: 33.33333334%;
@@ -511,10 +520,11 @@ nav a focus {
     background-image: url(../img/gymOnly03.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    height: 100vh;
     width: auto;
     margin: 0;
     background-size: cover;
-    padding: 10em 0;
+    
 }
 
 .About_Equipment ul {
