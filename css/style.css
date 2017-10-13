@@ -208,9 +208,10 @@ h1 {
         font-weight: 400;
     }
     .About-traingGrounds h1 {
-        font-weight: 200;
+        font-weight: 300;
         font-size: 7rem;
         color: white;
+        padding-top: 1em;
     }
 }
 
@@ -225,15 +226,27 @@ header {
     right: 0;
 }
 
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   background-color: rgba(0,0,0, 0.4);
+    z-index: 110;
+    
+}
 nav ul {
     margin: 0;
-    padding 0em;
+    padding 2em;
     list-style: none;
+    
 }
 
 nav li {
     display: inline-block;
     margin: .5em;
+    
+    
 }
 
 nav a {
@@ -243,6 +256,7 @@ nav a {
     font-size: .63999999999999em;
     padding: .7em;
     color: white;
+    
 }
 
 nav a:hover,
@@ -310,7 +324,7 @@ nav a focus {
     right: 10em;
     top: -10;
     font-weight: 900;
-    font-size: 2em;
+    font-size: 3em;
     padding-bottom: 0;
 }
 
@@ -322,14 +336,15 @@ nav a focus {
 
 .About-Hero p1 {
     background-image: url(../img/otred.jpg);
-    background-size: 55%;
+    background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
-    display: inline-block;
-    padding-left: 1.2em;
-    padding-right: 1.2em;
-    font-size: 1.2em;
+    display: block;
+    font-size: 1.3em;
     font-weight: 300;
+    line-height:  1em;
+    height: 15.99999em;
+    padding-top:5em;
 }
 
 .About-Closing h1 {
@@ -339,24 +354,6 @@ nav a focus {
     padding-top: 2em;
 }
 
-@media (min-width: 25rem) {
-    .About-Hero p1 {
-        background-image: url(../img/otred.jpg);
-        background-size: 60%;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: block;
-        padding-left: 2.0em;
-        padding-right: 3.8em;
-        padding-top: 2.0em;
-        padding-bottom: 3em;
-        font-size: 1.3em;
-        font-weight: 300;
-        height: 15.99999em;
-        width;
-        15em;
-    }
-}
 
 @media (min-width: 45rem) {
     .About-Hero p1 {
@@ -384,17 +381,21 @@ nav a focus {
 }
 
 @media (min-width: 60rem) {
+    .About-Hero h1 {
+        font-weight: 500;
+        font-size: 6em;
+    }
     .About-Hero p1 {
         background-image: url(../img/otred.jpg);
-        background-size: 25%;
+        background-size: 50%;
         background-position: center;
         background-repeat: no-repeat;
         display: block;
-        padding-left: 15em;
-        padding-right: 15em;
+        padding-left: 2em;
+        padding-right: 2em;
         padding-top: 5em;
         padding-bottom: 0em;
-        font-size: 1.2em;
+        font-size: 2.5em;
         font-weight: 300;
         height: 15.99999999;
         text-align: inherit;
@@ -440,33 +441,27 @@ nav a focus {
 ==================================*/
 
 .About-Training {
-overflow: hidden;
-
+    overflow: hidden;
 }
 
 .About-traingGrounds {
     height: 100vh;
     background-image: url(../img/gym_member01.jpg);
-   background-attachment: fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .About-Training-Times {
     height: 50vh;
     background-color: white;
     font-size: 10em;
-   
-    
 }
 
-.About-Training p1{
-height: 10em;   
-padding:8em;
-   
-
+.About-Training p1 {
+    height: 10em;
+    padding: 8em;
 }
 
 .port-item img {
@@ -477,7 +472,6 @@ padding:8em;
 .port-item {
     margin: 0;
     position: relative;
-    
 }
 
 .port-desc {
@@ -498,24 +492,18 @@ padding:8em;
     }
 }
 
-@media (min-width:48rem) {
-
-}
+@media (min-width:48rem) {}
 
 @media (min-width: 60rem) {
-
     .About-Training {
         background-color: white;
         background-size: 100vh auto;
-        
     }
-    
     .port-item {
         width: 25.3333333334%;
         padding-left: 4em;
         margin-left: 3em;
-        padding-bottom:1em;
-             
+        padding-bottom: 1em;
     }
 }
 
@@ -528,7 +516,6 @@ padding:8em;
     line-height: 2em;
     text-align: center;
     padding-top: 4em;
-    
 }
 
 @media (min-width: 60rem) {
@@ -541,27 +528,24 @@ padding:8em;
 /*The Equipment
 =========================*/
 
-.About_Equipment {
-   
-    
-}
+.About_Equipment {}
+
 .About-traingGrounds {
     height: 100vh;
     background-image: url(../img/gym_member01.jpg);
-   background-attachment: fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
+
 .theEquipment {
     height: 100vh;
     background-image: url(../img/gymOnly03.jpg);
-background-attachment: fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
 }
 
 .About_Equipment ul {
@@ -592,10 +576,11 @@ background-attachment: fixed;
 
 .About-Closing {
     background-image: url(../img/Logo01.jpg);
-    padding: 10em 0;
-    background-position: center;
-    background-size: 100% 100%;
     background-repeat: no-repeat;
+    padding: 10em 0;
+    background-size: cover;
+    background-position: center;
+    
 }
 
 .About-Closing h1 {
@@ -605,7 +590,7 @@ background-attachment: fixed;
 
 @media (min-width: 60rem) {
     .About-Closing {
-        background-size: 100% 100%;
+        background-size: 100vh 100;
     }
     .About-Closing h1 {
         padding-top: 1em;
@@ -630,11 +615,16 @@ background-attachment: fixed;
     padding-bottom: em;
     font-size: .9rem;
 }
+    .liTitle {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
 
 @media (min-width: 60rem) {
     .UnstyledList1 {
         font-size: 1.5rem;
     }
+
 }
 
 
