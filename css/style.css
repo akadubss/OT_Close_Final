@@ -439,8 +439,8 @@ nav a focus {
 ==================================*/
 
 .About-Training {
-   
-    overflow: hidden;
+overflow: hidden;
+
 }
 
 .About-traingGrounds {
@@ -454,10 +454,17 @@ nav a focus {
 .About-Training-Times {
     height: 10em;
     padding-top: 2em;
+    margin: .1em;
    
     
 }
 
+.About-Training p1{
+height: 10em;   
+padding:8em;
+   
+
+}
 
 .port-item img {
     display: block;
@@ -491,9 +498,18 @@ nav a focus {
 }
 
 @media (min-width: 60rem) {
+    .About-Training {
+        background-color: white;
+        background-size: 100vh auto;
+        
+    }
+    
     .port-item {
-        width: 33.33333334%;
-        float: left;
+        width: 25.3333333334%;
+        padding-left: 4em;
+        margin-left: 3em;
+        padding-bottom:1em;
+             
     }
 }
 
@@ -502,7 +518,11 @@ nav a focus {
 =========================*/
 
 .blank {
-    height: 5em;
+    height: 30em;
+    line-height: 2em;
+    text-align: center;
+    padding-top: 4em;
+    
 }
 
 @media (min-width: 60rem) {
@@ -522,12 +542,11 @@ nav a focus {
 .theEquipment {
     background-image: url(../img/gymOnly03.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    padding: 0em 0;
+        padding-top: 30em;
     margin: 0;
     background-size: cover;
     height: 50em;
-    padding-top: 10em;
+   
 }
 
 .About_Equipment ul {
