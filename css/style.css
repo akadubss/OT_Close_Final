@@ -250,10 +250,10 @@ nav li {
 }
 
 nav a {
-    font-weight: 500;
+    font-weight: 900;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: .63999999999999em;
+    font-size: .497em;
     padding: .7em;
     color: white;
     
@@ -265,8 +265,8 @@ nav a focus {
 }
 
 
-/*ipad media
-=========================*/
+
+
 
 @media (min-width: 45rem) {
     nav a {
