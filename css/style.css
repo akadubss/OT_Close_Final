@@ -439,7 +439,8 @@ nav a focus {
 ==================================*/
 
 .About-Training {
-    padding-bottom: 10em;
+   
+    overflow: hidden;
 }
 
 .About-traingGrounds {
@@ -453,13 +454,10 @@ nav a focus {
 .About-Training-Times {
     height: 10em;
     padding-top: 2em;
-    background-color: blue;
+   
     
 }
 
-.About-Training {
-    margin: 0;
-}
 
 .port-item img {
     display: block;
@@ -489,9 +487,7 @@ nav a focus {
 }
 
 @media (min-width:48rem) {
-    .About-Training {
-        padding-bottom: 10em;
-    }
+
 }
 
 @media (min-width: 60rem) {
@@ -520,7 +516,7 @@ nav a focus {
 =========================*/
 
 .About_Equipment {
-    background-color: blue;
+   
     
 }
 .theEquipment {
