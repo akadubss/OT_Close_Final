@@ -72,6 +72,7 @@ h1 {
     font-weight: 400;
     font-size: 2.5rem;
     color: white;
+    padding-top: 5em;
 }
 
 .About-Training-Times p1 {
@@ -454,7 +455,7 @@ overflow: hidden;
 }
 
 .About-Training-Times {
-    height: 25vh;
+    height: 50vh;
     background-color: white;
     font-size: 10em;
    
@@ -502,6 +503,7 @@ padding:8em;
 }
 
 @media (min-width: 60rem) {
+
     .About-Training {
         background-color: white;
         background-size: 100vh auto;
