@@ -16,6 +16,11 @@ body {
     margin: 0;
     font-family: "BebasNeue", sans-serif;
     text-align: center;
+    background-color: black;
+}
+
+p1 {
+    color: white!;
 }
 
 .container {
@@ -78,13 +83,13 @@ h1 {
 .About-Training-Times p1 {
     font-weight: 400;
     font-size: 2.5rem;
-    color: black;
+    color: white;
 }
 
 .About-Training-Times p2 {
     font-weight: 400;
     font-size: 1.5rem;
-    color: black;
+    color: white;
     display: block;
 }
 
@@ -96,7 +101,8 @@ h1 {
 }
 
 .About_Equipment p1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    color: white;
 }
 
 .footer p1 {
@@ -213,6 +219,12 @@ h1 {
         color: white;
         padding-top: 1em;
     }
+    .theEquipment h1 {
+        font-weight: 500;
+        font-size: 5.5rem;
+        color: white;
+        padding-top: 5.5em;
+    }
 }
 
 
@@ -231,22 +243,19 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-   background-color: rgba(0,0,0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     z-index: 110;
-    
 }
+
 nav ul {
     margin: 0;
     padding 2em;
     list-style: none;
-    
 }
 
 nav li {
     display: inline-block;
     margin: .5em;
-    
-    
 }
 
 nav a {
@@ -256,17 +265,12 @@ nav a {
     font-size: .497em;
     padding: .7em;
     color: white;
-    
 }
 
 nav a:hover,
 nav a focus {
     color: #ddd;
 }
-
-
-
-
 
 @media (min-width: 45rem) {
     nav a {
@@ -326,6 +330,7 @@ nav a focus {
     font-weight: 900;
     font-size: 3em;
     padding-bottom: 0;
+    color: white;
 }
 
 .About-Hero h1 span {
@@ -335,16 +340,17 @@ nav a focus {
 }
 
 .About-Hero p1 {
-    background-image: url(../img/otred.jpg);
+    background-image: url(../img/otred.png);
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
     display: block;
-    font-size: 1.3em;
-    font-weight: 300;
-    line-height:  1em;
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 1.5em;
     height: 15.99999em;
-    padding-top:5em;
+    padding-top: 3em;
+    color: white;
 }
 
 .About-Closing h1 {
@@ -354,61 +360,9 @@ nav a focus {
     padding-top: 2em;
 }
 
-
-@media (min-width: 45rem) {
-    .About-Hero p1 {
-        background-image: url(../img/otred.jpg);
-        background-size: 32%;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: block;
-        padding-left: 10em;
-        padding-right: 10em;
-        padding-top: em;
-        padding-bottom: 5em;
-        font-size: 1.2em;
-        font-weight: 300;
-        height: 15.99999999;
-        width;
-        15em;
-    }
-    .About-Closing h1 {
-        font-weight: 300;
-        font-size: 1.5rem;
-        color: white;
-        padding-top: 2em;
-    }
-}
+@media (min-width: 45rem) {}
 
 @media (min-width: 60rem) {
-    .About-Hero h1 {
-        font-weight: 500;
-        font-size: 6em;
-    }
-    .About-Hero p1 {
-        background-image: url(../img/otred.jpg);
-        background-size: 50%;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: block;
-        padding-left: 2em;
-        padding-right: 2em;
-        padding-top: 5em;
-        padding-bottom: 0em;
-        font-size: 2.5em;
-        font-weight: 300;
-        height: 15.99999999;
-        text-align: inherit;
-    }
-    .About-Closing h1 {
-        font-weight: 300;
-        font-size: 1.5rem;
-        color: white;
-        padding-top: 2em;
-    }
-}
-
-@media (min-width: 100rem) {
     .About-Hero h1 {
         font-weight: 500;
         font-size: 6em;
@@ -419,22 +373,14 @@ nav a focus {
         display: block;
     }
     .About-Hero p1 {
-        background-image: url(../img/otred.jpg);
         background-size: 35%;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: block;
-        padding-left: 18em;
-        padding-right: 18em;
-        padding-top: 8em;
-        padding-bottom: 5em;
-        font-size: 1.8em;
-        font-weight: 300;
-        height: 22em;
-        width;
-        15em;
+        padding-top: 6em;
+        padding-left: 6em;
+        padding-right: 6em;
     }
 }
+
+@media (min-width: 100rem) {}
 
 
 /*About Training Times
@@ -455,7 +401,7 @@ nav a focus {
 
 .About-Training-Times {
     height: 50vh;
-    background-color: white;
+    background-color: black;
     font-size: 10em;
 }
 
@@ -496,11 +442,11 @@ nav a focus {
 
 @media (min-width: 60rem) {
     .About-Training {
-        background-color: white;
+        background-color: black;
         background-size: 100vh auto;
     }
     .port-item {
-        width: 28.4333333334%;
+        width: 40.4333333334%;
         padding-left: 4em;
         margin-left: 3em;
         padding-bottom: 1em;
@@ -515,12 +461,27 @@ nav a focus {
     height: 30em;
     line-height: 2em;
     text-align: center;
-    padding-top: 4em;
+     padding-top: 6em;
+   
+}
+
+.blank p1 {
+    color: white;
+    font-weight: 300;
+    font-size: 1.2em;
+    
 }
 
 @media (min-width: 60rem) {
     .blank {
         height: 20em;
+    }
+    .blank p1 {
+        color: white;
+        font-weight: 300;
+        font-size: 1.2em;
+        padding-left:5em;
+        
     }
 }
 
@@ -528,7 +489,9 @@ nav a focus {
 /*The Equipment
 =========================*/
 
-.About_Equipment {}
+.About_Equipment {
+    height: 10em;
+}
 
 .About-traingGrounds {
     height: 100vh;
@@ -568,6 +531,20 @@ nav a focus {
     list-style-type: none;
     font-weight: 300;
     font-size: 1rem;
+    color: white;
+}
+
+@media (min-width: 20rem) {
+    .About_Equipment {
+        height: 30em;
+    }
+}
+
+@media (min-width: 60rem) {
+    .About_Equipment {
+        height: 30em;
+        padding: 5em;
+    }
 }
 
 
@@ -578,9 +555,19 @@ nav a focus {
     background-image: url(../img/Logo01.jpg);
     background-repeat: no-repeat;
     padding: 10em 0;
-    background-size: cover;
+    padding-bottom:10em;
+    background-size: 100%;
     background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+   
     
+        
+        
+           
+   
+
+   
 }
 
 .About-Closing h1 {
@@ -591,6 +578,7 @@ nav a focus {
 @media (min-width: 60rem) {
     .About-Closing {
         background-size: 100vh 100;
+         z-index: 100;
     }
     .About-Closing h1 {
         padding-top: 1em;
@@ -604,27 +592,27 @@ nav a focus {
 
 .footer {
     height: 10em;
-    padding-top: em;
+    color: white;
 }
 
 .UnstyledList1 {
     list-style-type: none;
-    font-weight: 100;
-    font-size: .5rem;
-    display: inline-block;
-    padding-bottom: em;
-    font-size: .9rem;
+      display: inline-block;
+    z-index: -100;
+    font-size: .72em;
 }
-    .liTitle {
-        font-weight: 500;
-        font-size: 1.5rem;
-    }
+
+.liTitle {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
 
 @media (min-width: 60rem) {
+
     .UnstyledList1 {
         font-size: 1.5rem;
+         
     }
-
 }
 
 
