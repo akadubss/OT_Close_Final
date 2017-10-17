@@ -256,6 +256,7 @@ header {
 }
 
 nav {
+    font-family: "BebasNeueBook";
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -276,12 +277,14 @@ nav li {
 }
 
 nav a {
-    font-weight: 900;
+    
+    font-weight: 400;
     text-decoration: none;
     text-transform: capitalize;
     font-size: .497em;
-    padding: .7em;
+    padding: .2444em;
     color: white;
+    
 }
 
 nav a:hover,
@@ -289,9 +292,9 @@ nav a focus {
     color: #ddd;
 }
 
-@media (min-width: 45rem) {
+@media (min-width: 40rem) {
     nav a {
-        font-size: 1.4em;
+        font-size: 1.3em;
     }
 }
 
@@ -307,10 +310,10 @@ nav a focus {
     background-position: center;
 }
 
-@media (min-width: 45rem) {
+@media (min-width: 40rem) {
     .home-hero {
         height: 100vh;
-        padding-top: 25em;
+        padding-top: 15em;
     }
 }
 
@@ -377,7 +380,16 @@ nav a focus {
     padding-top: 2em;
 }
 
-@media (min-width: 45rem) {}
+@media (min-width: 40rem) {
+    
+    .About-Hero p1 { 
+     background-size: 48%;   
+        padding-top: 4em;
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+    
+}
 
 @media (min-width: 60rem) {
     .About-Hero h1 {
@@ -455,9 +467,14 @@ nav a focus {
 }
 
 @media (min-width: 40rem) {
+    .About-Training-Times {
+        height: 2em;
+    }
+    
     .port-item {
         width: 50%;
         float: left;
+
     }
         #pi1 {
         padding-top: 0em;
@@ -602,6 +619,18 @@ nav a focus {
     font-size: 2.2em;
 }
 
+
+@media (min-width: 40rem) {
+    .About-Closing {
+        background-size: 100vh 100;
+        z-index: 100;
+    }
+    .About-Closing h1 {
+          
+        font-size: 2.5em;
+    }
+}
+
 @media (min-width: 60rem) {
     .About-Closing {
         background-size: 100vh 100;
@@ -630,6 +659,17 @@ nav a focus {
     font-size: .5em;
 }
 
+
+@media (min-width: 40rem) {
+    .footer{
+     height: 1em;   
+    }
+    .UnstyledList1 {
+        font-size: .64.321111em;
+        text-align: left;
+        
+    }
+}
 @media (min-width: 60rem) {
     .UnstyledList1 {
         font-size: 1.5em;
