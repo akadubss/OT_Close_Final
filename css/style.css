@@ -651,29 +651,31 @@ nav a focus {
     height: 10em;
     color: white;
 }
-
-.UnstyledList1 {
-    list-style-type: none;
-    display: inline-block;
-    z-index: -100;
-    font-size: .5em;
+.colleft {
+    text-align: left;
 }
 
+.colright {
+    text-align: right;
+}
 
+.colcenter{
+    text-align: center;
+}
 @media (min-width: 40rem) {
     .footer{
      height: 1em;   
     }
     .UnstyledList1 {
         font-size: .64.321111em;
-        text-align: left;
+        text-align: right;
         
     }
 }
 @media (min-width: 60rem) {
     .UnstyledList1 {
         font-size: 1.5em;
-        text-align: left;
+        text-align: right;
     }
 }
 
