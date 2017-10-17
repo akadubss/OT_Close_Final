@@ -1,4 +1,9 @@
 @font-face {
+    font-family: 'BebasNeueBook';
+    src: url('../font/bebas-neue-book/BebasNeueBook.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'BebasNeue';
     src: url('../font/bebas_neue/BebasNeue.otf') format('opentype');
 }
@@ -81,16 +86,17 @@ h1 {
 }
 
 .About-Training-Times p1 {
-    font-weight: 400;
-    font-size: 2.5rem;
+    font-weight: 300;
+    font-size: 1.8rem;
     color: white;
 }
 
 .About-Training-Times p2 {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
     display: block;
+    padding-top: ;
 }
 
 .theEquipment h1 {
@@ -224,6 +230,17 @@ h1 {
         font-size: 5.5rem;
         color: white;
         padding-top: 5.5em;
+    }
+    .About-Training-Times p1 {
+        font-weight: 400;
+        font-size: 2.5rem;
+        color: white;
+    }
+    .About-Training-Times p2 {
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: white;
+        display: block;
     }
 }
 
@@ -403,16 +420,22 @@ nav a focus {
     height: 50vh;
     background-color: black;
     font-size: 10em;
+    font-family: "BebasNeueBook";
 }
 
 .About-Training p1 {
     height: 10em;
-    padding: 8em;
+    padding: 7em;
+}
+
+#pi1 {
+    padding-top: 10em;
 }
 
 .port-item img {
     display: block;
     z-index: 100;
+    padding-top:
 }
 
 .port-item {
@@ -436,9 +459,16 @@ nav a focus {
         width: 50%;
         float: left;
     }
+        #pi1 {
+        padding-top: 0em;
+    }
 }
 
-@media (min-width:48rem) {}
+@media (min-width:48rem) {
+        #pi1 {
+        padding-top: 0em;
+    }
+}
 
 @media (min-width: 60rem) {
     .About-Training {
@@ -451,6 +481,9 @@ nav a focus {
         margin-left: 3em;
         padding-bottom: 1em;
     }
+    #pi1 {
+        padding-top: 0em;
+    }
 }
 
 
@@ -461,15 +494,14 @@ nav a focus {
     height: 30em;
     line-height: 2em;
     text-align: center;
-     padding-top: 6em;
-   
+    padding-top: 6em;
 }
 
 .blank p1 {
+    font-family: "BebasNeueBook";
     color: white;
     font-weight: 300;
     font-size: 1.2em;
-    
 }
 
 @media (min-width: 60rem) {
@@ -480,8 +512,7 @@ nav a focus {
         color: white;
         font-weight: 300;
         font-size: 1.2em;
-        padding-left:5em;
-        
+        padding-left: 5em;
     }
 }
 
@@ -509,6 +540,10 @@ nav a focus {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.About_Equipment {
+    font-family: "BebasNeueBook";
 }
 
 .About_Equipment ul {
@@ -555,19 +590,11 @@ nav a focus {
     background-image: url(../img/Logo01.jpg);
     background-repeat: no-repeat;
     padding: 10em 0;
-    padding-bottom:10em;
+    padding-bottom: 10em;
     background-size: 100%;
     background-position: center;
     background-attachment: fixed;
     background-color: black;
-   
-    
-        
-        
-           
-   
-
-   
 }
 
 .About-Closing h1 {
@@ -578,7 +605,7 @@ nav a focus {
 @media (min-width: 60rem) {
     .About-Closing {
         background-size: 100vh 100;
-         z-index: 100;
+        z-index: 100;
     }
     .About-Closing h1 {
         padding-top: 1em;
@@ -591,27 +618,22 @@ nav a focus {
 =========================*/
 
 .footer {
+    font-family: "BebasNeueBook";
     height: 10em;
     color: white;
 }
 
 .UnstyledList1 {
     list-style-type: none;
-      display: inline-block;
+    display: inline-block;
     z-index: -100;
-    font-size: .72em;
-}
-
-.liTitle {
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-size: .5em;
 }
 
 @media (min-width: 60rem) {
-
     .UnstyledList1 {
-        font-size: 1.5rem;
-         
+        font-size: 1.5em;
+        text-align: left;
     }
 }
 
