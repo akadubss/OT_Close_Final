@@ -78,6 +78,11 @@ h1 {
     font-family: 'Rage Italic';
 }
 
+h2 {
+    text-align: center;
+    font-family: "BebasNeueBook";
+}
+
 .About-traingGrounds h1 {
     font-weight: 400;
     font-size: 2.5rem;
@@ -194,7 +199,7 @@ h1 {
     .title_01 {
         font-size: 2.0rem;
         color: white;
-        font-weight: 100;
+        font-weight: 300;
         position: relative;
         bottom: 2em;
         font-weight: 400;
@@ -203,9 +208,9 @@ h1 {
     }
 }
 
-@media (min-width: 60em) {
+@media (min-width: 60rem) {
     .title {
-        font-size: 4.5rem;
+        font-size: 10rem;
         color: white;
         position: relative;
         bottom: -1em;
@@ -216,7 +221,7 @@ h1 {
         color: white;
         font-weight: 100;
         position: relative;
-        bottom: -1em;
+        bottom: -3em;
         font-weight: 400;
     }
     .About-traingGrounds h1 {
@@ -337,7 +342,7 @@ nav a focus {
 
 .About-Hero {
     /* background-image: url(../img/otred.jpg);*/
-    background-size: 75%;
+    background-size: 50%;
     background-position: center;
     padding-top: .5em;
     padding-bottom: 2em;
@@ -392,6 +397,8 @@ nav a focus {
 }
 
 @media (min-width: 60rem) {
+    
+
     .About-Hero h1 {
         font-weight: 500;
         font-size: 6em;
@@ -402,7 +409,7 @@ nav a focus {
         display: block;
     }
     .About-Hero p1 {
-        background-size: 35%;
+        background-size: 19%;
         padding-top: 6em;
         padding-left: 6em;
         padding-right: 6em;
@@ -481,13 +488,15 @@ nav a focus {
     }
 }
 
-@media (min-width:48rem) {
-        #pi1 {
-        padding-top: 0em;
-    }
-}
+
+
 
 @media (min-width: 60rem) {
+    
+        .About-Training-Times {
+        height: 2.5em;
+    }
+    
     .About-Training {
         background-color: black;
         background-size: 100vh auto;
@@ -606,16 +615,16 @@ nav a focus {
 .About-Closing {
     background-image: url(../img/Logo01.jpg);
     background-repeat: no-repeat;
-    padding: 10em 0;
-    padding-bottom: 10em;
-    background-size: 100%;
-    background-position: center;
+    height: 100vh;
+    
     background-attachment: fixed;
-    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .About-Closing h1 {
-    padding-bottom: 1em;
+    top:10em;
     font-size: 2.2em;
 }
 
@@ -637,8 +646,8 @@ nav a focus {
         z-index: 100;
     }
     .About-Closing h1 {
-        padding-top: 1em;
-        font-size: 5em;
+        padding-top: 5em;
+        font-size: 6em;
     }
 }
 
@@ -646,38 +655,119 @@ nav a focus {
 /*Footer
 =========================*/
 
-.footer {
-    font-family: "BebasNeueBook";
-    height: 10em;
+#myFooter {
+    background-color: black;
     color: white;
-}
-.colleft {
-    text-align: left;
-}
-
-.colright {
-    text-align: right;
+    padding-top: 20px;
+    font-family: "BebasNeueBook", sans-serif;
 }
 
-.colcenter{
+#map-container {
+    height: 240px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#myFooter .row {
+    margin: 0 85px;
+}
+
+#myFooter .footer-copyright {
+    background-color: black;
+    padding-top: 3px;
+    padding-bottom: 3px;
     text-align: center;
 }
-@media (min-width: 40rem) {
-    .footer{
-     height: 1em;   
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter .container {
+    width: auto;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+
+#myFooter .fa {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #182c39;
+    border-radius: 51%;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 31px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#myFooter .fa-facebook:hover {
+    color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus {
+    color: #2b55ff;
+}
+
+#myFooter .fa-google-plus:hover {
+    color: red;
+}
+
+#myFooter .fa-google-plus:focus {
+    color: red;
+}
+
+#myFooter .fa-twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .fa-twitter:focus {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
     }
-    .UnstyledList1 {
-        font-size: .64.321111em;
-        text-align: right;
-        
+    #myFooter .row {
+        margin: 0;
     }
 }
-@media (min-width: 60rem) {
-    .UnstyledList1 {
-        font-size: 1.5em;
-        text-align: right;
-    }
-}
+
 
 
 /*
