@@ -13,6 +13,8 @@
     src: url('../font/Rage Italic.ttf') format('truetype');
 }
 
+@import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css');
+
 * {
     box-sizing: border-box;
 }
