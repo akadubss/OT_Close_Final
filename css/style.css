@@ -13,7 +13,7 @@
     src: url('../font/Rage Italic.ttf') format('truetype');
 }
 
-@import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css');
+
 
 * {
     box-sizing: border-box;
@@ -87,20 +87,20 @@ h2 {
 
 .About-traingGrounds h1 {
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 6.5rem;
     color: white;
-    padding-top: 5em;
+    padding-top: 3em;
 }
 
 .About-Training-Times p1 {
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 3.8rem;
     color: white;
 }
 
 .About-Training-Times p2 {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 2.0rem;
     color: white;
     display: block;
     padding-top: ;
@@ -136,39 +136,33 @@ h2 {
     display: block;
 }
 
-@media (min-width: 35rem) {
-    .title {
-        font-size: 4.5rem;
-        color: white;
-        position: relative;
-        bottom: -1em;
-        font-weight: 400;
-    }
-    .title_01 {
-        font-size: 3.5rem;
-        color: white;
-        font-weight: 100;
-        position: relative;
-        bottom: -1em;
-        font-weight: 400;
-    }
-}
 
-@media (min-width: 45rem) {
+
+@media (min-width: 40rem) {
     .title {
-        font-size: 4.5rem;
+        font-size: 5.5rem;
         color: white;
         position: relative;
-        bottom: 2.5em;
         font-weight: 400;
     }
     .title_01 {
-        font-size: 3.5rem;
+        font-size:  3.5rem;
         color: white;
         font-weight: 100;
         position: relative;
-        bottom: 4em;
         font-weight: 400;
+    }
+    
+    .About-Training-Times p1 {
+       font-weight: 300;
+       font-size: 5.8rem
+       color: white;
+    }
+    .About-Training-Times p2 {
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: white;
+        display: block;
     }
 }
 
@@ -228,9 +222,9 @@ h2 {
     }
     .About-traingGrounds h1 {
         font-weight: 300;
-        font-size: 7rem;
+        font-size: 8rem;
         color: white;
-        padding-top: 1em;
+        padding-top: 4.5em;
     }
     .theEquipment h1 {
         font-weight: 500;
@@ -239,9 +233,9 @@ h2 {
         padding-top: 5.5em;
     }
     .About-Training-Times p1 {
-        font-weight: 400;
-        font-size: 2.5rem;
-        color: white;
+       font-weight: 300;
+       font-size: 5.8rem
+       color: white;
     }
     .About-Training-Times p2 {
         font-weight: 400;
@@ -249,6 +243,7 @@ h2 {
         color: white;
         display: block;
     }
+
 }
 
 
@@ -320,7 +315,7 @@ nav a focus {
 @media (min-width: 40rem) {
     .home-hero {
         height: 100vh;
-        padding-top: 15em;
+        padding-top: 5em;
     }
 }
 
@@ -372,12 +367,13 @@ nav a focus {
     background-position: center;
     background-repeat: no-repeat;
     display: block;
-    font-size: 1.2em;
+    font-size: 1.5rem;
     font-weight: 100;
     line-height: 1.5em;
     height: 15.99999em;
     padding-top: 3em;
     color: white;
+    font-family: "BebasNeueBook";
 }
 
 .About-Closing h1 {
@@ -477,7 +473,7 @@ nav a focus {
 
 @media (min-width: 40rem) {
     .About-Training-Times {
-        height: 2em;
+        height: 2.5em;
     }
     
     .port-item {
@@ -529,7 +525,7 @@ nav a focus {
     font-family: "BebasNeueBook";
     color: white;
     font-weight: 300;
-    font-size: 1.2em;
+    font-size: 2.2rem;
 }
 
 @media (min-width: 60rem) {
@@ -571,7 +567,12 @@ nav a focus {
 }
 
 .About_Equipment {
+    padding-top: 2em;
     font-family: "BebasNeueBook";
+}
+.About_Equipment p1 {
+    font-family: "BebasNeueBook";
+    font-size:1.2222222rem;
 }
 
 .About_Equipment ul {
@@ -593,13 +594,19 @@ nav a focus {
     padding: 2em;
     list-style-type: none;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: white;
 }
 
 @media (min-width: 20rem) {
     .About_Equipment {
-        height: 30em;
+        height: 35em;
+    }
+}
+
+@media (min-width: 40rem) {
+    .About_Equipment p1 {
+       font-size: 2rem;
     }
 }
 
@@ -626,8 +633,8 @@ nav a focus {
 }
 
 .About-Closing h1 {
-    top:10em;
-    font-size: 2.2em;
+    padding-top: 8em;
+    font-size: 2.8em;
 }
 
 
@@ -637,8 +644,8 @@ nav a focus {
         z-index: 100;
     }
     .About-Closing h1 {
-          
-        font-size: 2.5em;
+        padding-top: 3em;
+        font-size: 6.5rem;
     }
 }
 
@@ -745,12 +752,12 @@ nav a focus {
     color: #2b55ff;
 }
 
-#myFooter .fa-google-plus:hover {
-    color: red;
+#myFooter .fa-instagram:hover {
+    color: #2b55ff;
 }
 
-#myFooter .fa-google-plus:focus {
-    color: red;
+#myFooter .fa-instagram:focus {
+    color: #2b55ff;
 }
 
 #myFooter .fa-twitter:hover {
