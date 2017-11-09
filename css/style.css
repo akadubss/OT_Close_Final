@@ -305,7 +305,7 @@ nav a focus {
 ==================================*/
 
 .home-hero {
-    background-image: url(../img/aaronSolo02BW.jpg);
+    background-image: url(../img/Aaron_Hero.jpg);
     background-repeat: no-repeat;
     padding: 10em 0;
     background-size: cover;
@@ -426,7 +426,7 @@ nav a focus {
 
 .About-traingGrounds {
     height: 100vh;
-    background-image: url(../img/gym_member01.jpg);
+    background-image: url(../img/Aaron_Landing.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -550,7 +550,6 @@ nav a focus {
 
 .About-traingGrounds {
     height: 100vh;
-    background-image: url(../img/gym_member01.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -635,6 +634,13 @@ nav a focus {
 .About-Closing h1 {
     padding-top: 8em;
     font-size: 2.8em;
+}
+
+@media (min-width: 20rem) {
+    .About-Closing h1 {
+        
+        font-size: 3.5rem;
+    }
 }
 
 

@@ -1,21 +1,20 @@
-var slideIndex = 1;
-showDivs(slideIndex);
+$(window).scroll(function (e) {
+    parallax();
+})
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+
+function parallax() {
+    var scroll = $(window).scrollTop();
+    var screenHeight = $(window).height();
+
+    $('.parallax').each(function () {
+        var offset = $(this).offset().top;
+        var distanceFromBottom = offset - scroll - screenHeight
+
+        if (offset > screenHeight && offset) {
+            $(this).css('background-position', 'center ' + ((distanceFromBottom) * 0.5) + 'px');
+        } else {
+            $(this).css('background-position', 'center ' + ((-scroll) * 0.5) + 'px');
+        }
+    })
 }
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";                                                                                                          
-}
-
-
-
-
