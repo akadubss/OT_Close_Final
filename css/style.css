@@ -1,0 +1,564 @@
+@font-face {
+    font-family: 'BebasNeueBook';
+    src: url('../font/bebas-neue-book/BebasNeueBook.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../font/bebas_neue/BebasNeue.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Rage Italic';
+    src: url('../font/Rage Italic.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "BebasNeue", sans-serif;
+    text-align: center;
+    background-color: black;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rage Italic';
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+h2 {
+    text-align: center;
+    font-family: "BebasNeueBook";
+}
+
+p1 {
+    text-align: center;
+    font-family: "BebasNeueBook";
+}
+
+p2 {
+    text-align: center;
+    font-family: "BebasNeueBook";
+}
+
+.UnstyledList {
+    -webkit-columns: 1em 3;
+    -moz-columns: 1em 3;
+    columns: 1em 3;
+    padding: 2em;
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: white;
+    font-family: "BebasNeueBook"
+}
+
+
+/*==================================
+/*============Typeography===========
+/*==================================*/
+
+.Hero_Title {
+    font-size: 5.5rem;
+    color: white;
+}
+
+.Hero_Title_02 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.About-Hero h1 {
+    font-weight: 100;
+    font-size: 4em;
+    color: white;
+}
+
+.About-Hero h1 span {
+    display: block;
+}
+
+.About-Hero p1 {
+    padding-top: 2em;
+    height: 13em;
+    display: block;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 100;
+}
+
+.Training h1 {
+    font-weight: 300;
+    font-size: 5.5rem;
+    color: white;
+    padding-top: 5em;
+}
+
+.Training-Times p1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.Training-Times p2 {
+    font-weight: 300;
+    font-size: 1.35rem;
+    color: white;
+    display: block;
+}
+
+.trainingDesc p1 {
+    color: white;
+    font-weight: 300;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 1em;
+}
+
+.theEquipment_Hero h1 {
+    font-weight: 500;
+    font-size: 5.5rem;
+    color: white;
+    padding-top: 5.5em;
+}
+
+.About_Equipment p1 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.About-Closing h1 {
+    padding-top: 8em;
+    font-size: 3.9rem;
+    color: white;
+}
+
+@media (min-width: 20rem) {
+    .Hero_Title {
+        font-size: 5.5rem;
+    }
+    .Hero_Title_02 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width: 40rem) {
+    .Hero_Title {
+        font-size: 6.5rem;
+    }
+    .Hero_Title_02 {
+        font-size: 3.5rem;
+    }
+    .About-Hero h1 {
+        font-size: 6em;
+    }
+    .About-Hero p1 {
+        font-size: 2.5rem;
+    }
+    .Training-Times p1 {
+        font-size: 4.5rem;
+    }
+    .Training-Times p2 {
+        font-size: 2rem;
+    }
+    .trainingDesc p1 {
+        font-size: 2.5rem;
+    }
+    .About_Equipment p1 {
+        color: white;
+        font-size: 2rem;
+    }
+    .About-Closing h1 {
+        padding-top: 5em;
+        font-size: 6rem;
+    }
+}
+
+@media (min-width: 60rem) {
+    .Hero_Title {
+        font-size: 9.5rem;
+        color: white;
+    }
+    .Hero_Title_02 {
+        font-size: 3.5rem;
+        color: white;
+    }
+    .About-Hero h1 {
+        font-size: 6em;
+    }
+    .About-Hero p1 {
+        padding-left: 3em;
+        padding-right: 3em;
+        font-size: 1.5em;
+    }
+    .About-Closing h1 {
+        padding-top: 6em;
+    }
+}
+
+@media (min-width: 100rem) {
+    .About-Closing h1 {
+        font-size: 8.5rem;
+    }
+}
+
+
+/*==================================
+/*===============Header=============
+/*==================================*/
+
+header {
+    position: absolute;
+    margin-top: .25;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    font-family: "BebasNeueBook";
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 110;
+}
+
+nav ul {
+    margin: 0;
+    padding 3em;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: .5em;
+}
+
+nav a {
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: .7em;
+    padding: .2444em;
+    color: white;
+}
+
+nav a:hover,
+nav a focus {
+    color: #ddd;
+}
+
+@media (min-width: 20rem) {
+    nav a {
+        font-size: .6em
+    }
+}
+
+@media (min-width: 40rem) {
+    nav a {
+        font-size: 1.2em
+    }
+}
+
+@media (min-width: 60rem) {
+    nav a {
+        font-size: 1.8em;
+        font-weight: 200;
+    }
+}
+
+
+/*==================================
+/*============Home Hero=============
+/*==================================*/
+
+.home-hero {
+    background-image: url(../img/Aaron_Hero.jpg);
+    background-repeat: no-repeat;
+    padding: 10em 0;
+    padding-top: 20em;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/*==================================
+/*============About Hero============
+/*==================================*/
+
+
+/*this is for the background photo inside p1*/
+
+.About-Hero p1 {
+    background-image: url(../img/otred.png);
+    background-size: 54%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 60rem) {
+    .About-Hero p1 {
+        background-size: 30%;
+    }
+}
+
+@media (min-width: 80rem) {
+    .About-Hero p1 {
+        background-size: 30%;
+        padding-top: 4em;
+    }
+}
+
+@media (min-width: 110rem) {
+    .About-Hero p1 {
+        background-size: 15%;
+        padding-top: 4em;
+    }
+}
+
+
+/*==================================
+/*==========Training Grounds========
+/*==================================*/
+
+.Training {
+    height: 100vh;
+    background-image: url(../img/Aaron_Landing.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.Training-Port {
+    overflow: hidden;
+}
+
+.Training-Times {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+.Training-Port img {
+    margin: 2;
+    display: block;
+    position: relative;
+}
+
+.trainingDesc {
+    background-image: url(../img/otred.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30em;
+    padding-top: 8em;
+}
+
+@media (min-width: 40rem) {
+    .Training-Port img {
+        width: 50%;
+        float: left;
+    }
+    .trainingDesc {
+        background-size: 55%;
+        padding-left: 8em;
+        padding-right: 8em;
+    }
+}
+
+@media (min-width: 60rem) {
+    .Training-Port img {
+        width: 34.4333333334%;
+        padding-left: 0em;
+        margin-left: 8em;
+        padding-bottom: 1em;
+    }
+    .trainingDesc {
+        background-size: 41%;
+    }
+}
+
+@media (min-width: 100rem) {
+    .Training-Port img {
+        width: 38.4333333334%;
+        padding-left: 0em;
+        margin-left: 8em;
+        padding-bottom: 1em;
+    }
+    .trainingDesc {
+        background-size: 23%;
+        padding-left: 20em;
+        padding-right: 20em;
+        padding-top: 10em;
+    }
+}
+
+
+/*==================================
+/*============The Equipment=========
+/*==================================*/
+
+.theEquipment_Hero {
+    height: 100vh;
+    background-image: url(../img/gymOnly03.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.About_Equipment {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+
+/*==================================
+/*============About Closing=========
+/*==================================*/
+
+.About-Closing {
+    background-image: url(../img/Logo01.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*==================================
+/*============Footer=========
+/*==================================*/
+
+#myFooter {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    font-family: "BebasNeueBook", sans-serif;
+}
+
+#map-container {
+    height: 240px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#myFooter .row {
+    margin: 0 85px;
+}
+
+#myFooter .footer-copyright {
+    background-color: black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter .container {
+    width: auto;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+
+#myFooter .fa {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #182c39;
+    border-radius: 51%;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 31px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#myFooter .fa-facebook:hover {
+    color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus {
+    color: #2b55ff;
+}
+
+#myFooter .fa-instagram:hover {
+    color: #2b55ff;
+}
+
+#myFooter .fa-instagram:focus {
+    color: #2b55ff;
+}
+
+#myFooter .fa-twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .fa-twitter:focus {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #myFooter .row {
+        margin: 0;
+    }
+}
